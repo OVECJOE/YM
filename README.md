@@ -25,5 +25,5 @@ I said to two friends of mine. They said it was a good idea.
 - Node.js
 - Express.js
 - MongoDB
-- Reactstrap
+- TailwindCSS
 - and some more...
