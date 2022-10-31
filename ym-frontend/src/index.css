@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700;900&family=Sofia&family=Sunflower:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sunflower', 'Sofia', 'Roboto', 'PT Sans', 'Black And White Picture', sans-serif;
+}
+
+h1 {
+  font-size: calc(2rem + 2vmin);
+}
+
+h2 {
+  font-size: calc(2rem + 1.5vmin);
+}
+
+h3 {
+  font-size: calc(1.5rem + 1.5vmin);
+}
+
+h4 {
+  font-size: calc(1rem + 1vmin);
+}
+
+.active {
+  background-color: white;
+  color: #7B3F00;
+  font-weight: 900;
+  padding: .2rem .4rem;
+  box-shadow: -3px 3px 0px 2px #B87333;
+}
